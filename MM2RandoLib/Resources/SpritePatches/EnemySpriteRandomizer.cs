@@ -217,6 +217,13 @@ namespace MM2Randomizer.Resources.SpritePatches
             Properties.EnemySpriteResources.Telly_Telly2,
         };
 
+private static readonly List<Byte[]?> ENEMY_SPRITE_LIST_YOKU = new List<Byte[]?>()
+        {
+            null,
+            Properties.EnemySpriteResources.yoku 1,
+            Properties.EnemySpriteResources.yoku 2,
+        };
+
         private static readonly List<List<Byte[]?>> ENEMY_SPRITE_COLLECTION = new List<List<Byte[]?>>()
         {
             ENEMY_SPRITE_LIST_BATTON,
@@ -246,6 +253,7 @@ namespace MM2Randomizer.Resources.SpritePatches
             ENEMY_SPRITE_LIST_SPRINGER,
             ENEMY_SPRITE_LIST_TANISHI,
             ENEMY_SPRITE_LIST_TELLY,
+            ENEMY_SPRITE_LIST_YOKU,
         };
     }
 }
